@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <form method="get"  enctype="text/plain" autocomplete="off" novalidate>
+        <fieldset>
+            <div>
+                <label for="first" >First name:</label>
+                <input type = "text" name="name" id="first" placeholder="First name" value="sarah" required>
+            </div>
+            <div>
+                <label for="last">Last Name:</label>
+                <input type = "text" name="last" id="last" placeholder="Last name" value="jacob">
+            </div>
+        </fieldset>
+        <div>
+            <label for="sel">Select - </label>
+            <select name="sel" size="2">
+                <option value="one">1</option>
+                <option value="two" selected>2</option>
+                <option value="one">1</option>
+                <option value="one">1</option>
+                <option value="one">1</option>
+            </select>
+        </div>
+        <div>
+            <label for="addr">Address - </label>
+            <textarea name="msg" rows="5" cols="5">Default</textarea>
+        </div>
+
+        <input type="checkbox" name="check" checked><br>
+        <input type="color" name="color"><br>
+        <input type="date" name="date"><br>
+        <input type="datetime-local" name="date2"><br>
+
+        <label for="mail">Email - </label>
+        <input type="email" name="mail"><br>
+
+        <input type="password" name="pass"><br>
+        <input type="file"><br>
+
+        <input type="hidden" value="hi"><br>
+        <input type="number" name="num"><br>
+
+        <input type="radio" name="radio1" value="one"><br>
+        <input type="radio" name="radio1" value="two"><br>
+        <input type="radio" name="radio1" value="three"><br>
+
+        <input type="url" name="url">
+
+        <input type="tel">
+
+        <input type="range" name ="ranger" min="0" max="10">
+
+
+
+        <button type="reset">Reset</button>
+        <input type="submit" value="click me">
+    </form>
+</body>
+</html>
