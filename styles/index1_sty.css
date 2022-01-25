@@ -5,3 +5,16 @@
     color: black;
 } */
 
+body{
+    background-color: azure;
+}
+
+table,td{
+    border: 1px solid black;
+    text-align: center;
+}
+table{
+    width:400px;
+    margin:auto;
+}
+
