@@ -1,0 +1,20 @@
+h1{
+    height: inherit;
+    width: 50%;
+    background: red;
+}
+.first{
+    background-color: blue;
+    max-width: 500px;
+ 
+}
+.sec{
+    background-color: green;
+    width: 500px;
+   
+}
+.thr{
+    background-color: yellow;
+    min-width: 500px;
+   
+}

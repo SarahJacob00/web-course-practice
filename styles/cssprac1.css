@@ -1,0 +1,26 @@
+*{
+    color: white;
+}
+.first{
+    background-color: rgba(41, 34, 25, 0.4);
+}
+
+.body1{
+    background-color: red;
+}
+.body2{
+    background-color: blue;
+}
+.body3{
+    background-color: green;
+}
+
+.h1_1{
+    color:red;
+}
+.h1_2{
+    color:blue;
+}
+.h1_3{
+    color:green;
+}
