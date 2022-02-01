@@ -1,0 +1,40 @@
+li{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    line-height: 70px;
+   
+}
+
+li a{
+    text-decoration: none;
+    padding: 20px 10px;
+   
+}
+li a:hover {
+    background-color: aquamarine;
+    text-decoration: underline;
+    color:aliceblue;
+}
+
+ul{
+    list-style-type: none;
+    height: 70px;
+}
+
+/* section{
+    visibility: hidden;
+} */
+
+span{
+    border: 1px solid red;
+    display:block;
+}
+div{
+    border:1px solid blue;
+    display:inline;
+}
+header{
+    /* display: none; */
+    background-color: rgb(60, 128, 128);
+}

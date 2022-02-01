@@ -1,8 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Comforter&display=swap');
+body{
+    font-family: 'Comforter', "cursive";
+}
 h1{
     height: inherit;
     width: 50%;
-    background: red;
+    
 }
+
+.sarah{
+    text-align: center;
+  
+    text-shadow: 3px 3px 5px red;
+}
+
 .first{
     background-color: blue;
     max-width: 500px;
