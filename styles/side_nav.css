@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Comforter&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+aside{
+    height: 100%;
+    width: 20%;
+    position: fixed;
+    top: 5px;
+    left: 5px;
+    background-color: red;
+    z-index: 1;
+}
+aside a{
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    font-family: 'Comforter', "cursive";
+    font-weight: bold;
+    line-height: 40px;
+
+    color: white;
+    background-color: darkred;
+    margin: 10px 5px;
+}
+
+aside a:hover{
+    background-color: aliceblue;
+    color: darkred;
+}
+
+.content{
+    background-color: beige;
+    margin-left: 21%;
+    padding-left: 20px;
+    height: 600px;
+}
