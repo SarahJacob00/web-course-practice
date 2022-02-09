@@ -1,0 +1,46 @@
+@keyframes egs {
+    0% {width:100px}
+    25% {width:200px}
+    50% {width:300px}
+    75% {width:400px}
+    100% {width:500px}
+}
+
+
+.one{
+    /* transform: translate(100px,200px); */
+    background: red;
+    animation-name: egs;
+    animation-duration:5s;
+    width:200px;
+    height: 80px;
+}
+/* 
+.two{
+    transform: rotate(45deg);
+    background: green;
+    text-align: center;
+    width:200px;
+}
+
+.three{
+    transform: scale(2,4);
+    background: yellow;
+    text-align: center;
+    width:200px;
+    height: 80px;
+}
+
+.four{
+    transform: skewY(45deg);
+    background: purple;
+    text-align: center;
+    width:200px;
+}
+
+.five{
+    transform: matrix(0.5,0.3,0,1,0,0);
+    background: aqua;
+    text-align: center;
+    width:200px;
+} */
