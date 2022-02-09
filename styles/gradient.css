@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Comforter&display=swap');
+
+*{
+    box-sizing: border-box;
+    font-family: 'Comforter', "cursive";
+    color: whitesmoke;
+    text-shadow: 2px 2px 2px  rgb(35, 49, 47);
+    outline: 2px;
+    font-size: 30px;
+}
+
+nav ul li{
+    display: inline-block;
+    margin-right: 30px;
+}
+
+nav ul li a{
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.one{
+    height: 400px;
+    width: 100%;
+    text-align: center;
+    background: radial-gradient(lightgreen, lightblue);
+}
+.two{
+    height: 400px;
+    width: 100%;
+    text-align: center;
+    background: linear-gradient(to right,rgb(146, 144, 238), rgb(206, 94, 235));
+}
+.three{
+    height: 400px;
+    width: 100%;
+    text-align: center;
+    background: linear-gradient(to bottom right,rgb(226, 40, 40), rgb(236, 161, 117));
+}
+.four{
+    height: 400px;
+    width: 100%;
+    text-align: center;
+    background: linear-gradient(50deg,rgb(241, 116, 241), rgb(228, 61, 111));
+}
+
+.five{
+    height: 400px;
+    width: 100%;
+    text-align: center;
+    background: radial-gradient(lightgreen,lightblue,rgb(236, 161, 117),rgb(241, 116, 241), rgb(228, 61, 111));
+}
