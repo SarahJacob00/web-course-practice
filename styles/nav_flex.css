@@ -1,37 +1,37 @@
-.container> li a{
+ *{
+     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+ul{
+    margin:0;
+    padding: 0;
+    list-style: none;
+    background-color: black;
+    display: flex; 
+}
+
+ul a{
+    color:white;
     text-decoration: none;
-    color: white;
 }
 
-@media screen and (max-width : 2000px)
-{
-    .container{
-        display: flex;
-        background-color: black;
-        
-        
-    }
-    
-    .container > li
-    {
-        flex:1;
-        display: inline-block;  
-    }
-   
+ul li{
+    display: inline-block;
+    padding: 10px 15px;
 }
 
-@media screen and (max-width : 400px)
+ul li:hover{
+    background-color: gray;
+}
+
+
+@media screen and (max-width : 900px)
 {
-    .container{
-        display: flex;
-        background-color: black;
+    ul{
         flex-direction: column;
         text-align: center;
+       
     }
     
-    .container > li
-    {
-        flex:1;
-        display: inline-block;
-    }
-}
+}  
