@@ -1,0 +1,32 @@
+header,footer{
+    display: none;
+}
+
+.one{grid-area:header;}
+.two{grid-area:nav;}
+.three{grid-area:main;}
+.four{grid-area:mainL;}
+.five{grid-area:mainR;}
+.six{grid-area:footer;}
+
+.container{
+    display:grid;
+    grid-template-areas: 
+    'header header header header'
+    'nav main main main'
+    'mainL mainL mainR mainR'
+    'footer footer footer footer';
+    background-color: red;
+
+} 
+
+
+
+
+.container > div{
+    border: 2px solid black;
+    text-align: center;
+   
+    background-color: white;
+   
+}

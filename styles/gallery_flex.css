@@ -1,0 +1,68 @@
+*{
+    box-sizing: border-box;
+}
+
+header,footer{
+    background-color: black !important; /* important overrides any inline styling applied*/
+    color: white;
+    text-align: center;
+    height:50px;
+    margin: 2px;
+    padding: 0;
+    font-size: 30px;
+    line-height: 50px;
+}
+
+/* id overrides class style of same tag */
+
+section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch;
+}
+
+.col{
+    flex:33.3%;
+    padding: 2px;
+}
+
+section img{
+    /* margin:3px; */
+    width: 100%;
+}
+
+section img:hover{
+    cursor: pointer;
+    
+    /* cursor:url('/favicon-16x16.png'), auto;	 */
+}
+
+header{
+    text-transform: uppercase;
+}
+
+footer{
+    clear: both;
+    margin-top:3px;
+}
+
+@media screen and (max-width : 900px)
+{
+
+    .col{
+        flex:50%;
+        padding: 2px;
+    }
+}
+
+
+@media screen and (max-width : 650px)
+{
+
+    
+    .col{
+        flex:100%;
+        padding: 2px;
+    }
+}

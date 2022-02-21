@@ -8,11 +8,50 @@
     flex-flow: row wrap;
     justify-content: space-between; 
     align-items: center ;*/
+    align-items: stretch; 
+    background-color: red;
+    height: 300px;
 }
+
+.one{
+    flex-basis:400px;
+    align-self: center;
+}
+
+/* .one{
+    flex-grow: 2;
+} */
+
+.two,.three,.four{
+    flex-grow: 1;
+    align-self: flex-start;
+}
+
+.six{
+    flex:0 0 400px; /* flex-growth flex-shrink flew-basis*/
+}
+
+.five{
+    flex-shrink: 0;
+    align-self: flex-end;
+}
+
+/* .one{
+    order:4;
+}
+
+.two{
+    order:2;
+}
+
+.six{
+    order:23
+} */
 
 .container > div{
     
     border: 2px solid black;
     width:100px;
-    height: 200px;
+    height: 100px;
+    background-color: white;
 }
