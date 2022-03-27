@@ -1,0 +1,11 @@
+document.URL
+document.body
+document.head
+document.links
+
+
+document.getElementById()
+document.getElementByClassName()
+document.getElementByTagName()
+document.querySelector()
+document.querySelectorAll()

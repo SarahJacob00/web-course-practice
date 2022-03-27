@@ -1,0 +1,32 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+body{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+#info{
+   background-color: slateblue;
+   width: 200px;
+   height:200px;
+   border-radius: 100px;
+   justify-content: center;
+   align-items: center;
+   display: flex;
+   transition: cubic-bezier(0.075,0.82,0.165,1) 3s;
+   color: white;
+}
+
+.hover{
+    transform:scale(2);
+}
